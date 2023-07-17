@@ -177,3 +177,46 @@
   .collection-product img{
     width: 100%;
   }
+
+
+
+  .featured{
+    width:calc(100vw - 200px);
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+   
+  }
+
+  .featured-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap:80px ;
+    
+  }
+
+  .featured-text .featured-title{
+    color:#0A0826;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .featured-text .featured-description{
+    color: #6C6C6C;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 175% */
+width: 500px;
+  }
+
+  .featured-text .featured-btn{
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 41px;
+    margin-top: 20px;
+  }
