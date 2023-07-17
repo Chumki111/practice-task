@@ -100,3 +100,21 @@
     background-image: url('./assets/Circle\ design.svg');
     background-repeat: no-repeat;
   }
+
+
+
+
+
+  .brand-name-container{
+    width: 75vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 50px;
+    margin-top: 110px;
+    align-items: center;
+    border-top: 1px solid rgb(189,186,186);
+    border-bottom: 1px solid rgb(189,186,186);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
