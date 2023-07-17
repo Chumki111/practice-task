@@ -118,3 +118,62 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+
+
+  .collection{
+    width:calc(100vw - 300px);
+    margin: 0 auto;
+    margin-bottom: 100px;
+   
+  }
+
+  .collection .title{
+    text-align: center;
+   
+
+  } 
+.collection-container{
+
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+   gap: 20px;
+   margin-top: 40px;
+  
+  }
+  .collection-products{
+
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 320px;
+    
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+  }
+  .collection-products .title{
+    font-weight: 500;
+    color:#18191F;
+    font-size: 28px;
+  }
+
+  .collection-products .cost{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: calc(var(--font-size) * 1.5);
+    
+    font-weight: 400;
+    line-height: 150%;  
+  }
+  .collection-products  .product-description{
+    color: #787889;
+    font-family: Inner;
+    font-weight: 700;
+    font-size: calc(var(--font-size) * 0.87);
+    letter-spacing: 0.252px;
+  }
+
+  .collection-product img{
+    width: 100%;
+  }
