@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+ margin: 0;
+ padding: 0;
+}
+:root{
+    --primary-color:#3A3A3A;
+    --primary-font-weight:700;
+}
+
+/* this is header styled */
+
+/* this is nav styled */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
+    
+}
+
+nav h3{
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    font-weight: var(--primary-font-weight);
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    color:var(--primary-color) ;
+    font-size: 1rem;
+    font-weight: 600px;
+    margin-right: 30px;
+
+}
+nav li a{
+    text-decoration: none;
+}
