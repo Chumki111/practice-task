@@ -201,7 +201,7 @@
     gap:80px ;
     
   }
-  .featured-picture{
+  /* .featured-picture{
     width: 50%;
   }
   .featured-picture img{
@@ -209,7 +209,7 @@
   }
   .featured-text{
     width: 50%;
-  }
+  } */
 
   .featured-text .featured-title{
     color:#0A0826;
@@ -246,3 +246,105 @@ width: 500px;
     color: #FFF;
     /* width:calc(100vw - 200px) ; */
   }
+
+
+
+
+@media screen and (max-width:576px) {
+     .header{
+     gap: 100px;
+     }
+     nav {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .nav-bar {
+      flex-direction: column;
+      height: auto;
+    }
+    .nav-ul {
+      flex-direction: column;
+    }
+    .nav-ul li {
+      display: block;
+      margin: 0 auto;
+    }
+    .header-content {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
+    .header-text {
+      text-align: center;
+      gap: 40px;
+      width: 100%;
+      line-height: normal;
+      display: block;
+      margin: 0 auto;
+    }
+    .header-btn {
+      margin: 0 auto;
+    }
+    .header-cover img {
+      width: 100%;
+    }
+    .header-cover {
+      background-size: contain;
+    }
+    .brand-name-container {
+      width: auto;
+      padding-right: 30px;
+      padding-left: 30px;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      row-gap: 40px;
+      align-items: center;
+    }
+    .brand-name-container > img {
+      width: 70px;
+    }
+    .collection-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  
+      row-gap: 30px;
+    }
+    .collection {
+      width: auto;
+    }
+    .collection-product {
+      position: relative;
+      width: 310px;
+      display: block;
+  
+      margin: 0 auto;
+    }
+    .featured-container{
+      flex-direction: column-reverse;
+    }
+    /* .featured-picture{
+      width: 300px;
+      height: 300px;
+    } */
+    .featured-picture img{
+      width: 100%;
+    }
+    
+    
+    .featured-text .featured-description {
+      text-align: center;
+     
+      width: 100%;
+      line-height: normal;
+      margin: 0 auto;
+    }
+    .featured-text .featured-btn{
+      width: 130px;
+      display: block;
+      margin: 0 auto;
+    }
+  
+}
+
+
+
+
